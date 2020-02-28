@@ -848,6 +848,11 @@ collections:
         name: date
         label: Date
         required: true
+      - widget: string
+        name: video_embed
+        label: Video Embed
+        required: false
+        hint: The video shown in the project page.
       - widget: image
         name: thumb_img_path
         label: Featured Image
